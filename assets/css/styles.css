@@ -1,0 +1,118 @@
+.projects-horizontal .item .name {
+  font-size:14px;
+  font-weight:bold;
+  margin-top:10px;
+  margin-bottom:15px;
+  color:#4CAF50;
+}
+
+div.col-sm-6.item {
+  height:320px;
+}
+
+@media (max-width:991px) {
+  div.col-sm-6.item {
+    height:640px;
+  }
+}
+
+.projects-horizontal .item {
+  padding-top:20px;
+  min-height:160px;
+  padding-bottom:20px;
+}
+
+@media (max-width:767px) {
+  .projects-horizontal .item {
+    padding-top:40px;
+    min-height:160px;
+  }
+}
+
+p.rounded-green {
+  border-radius:25px;
+  border:1px solid #73AD21;
+  padding:2px;
+  font-size:14px;
+  color:#73AD21;
+  text-align:center;
+}
+
+p.rounded-orange {
+  border-radius:25px;
+  border:1px solid #FF5722;
+  padding:2px;
+  color:#FF5722;
+  text-align:center;
+}
+
+.btn-default {
+  text-shadow:0 0px 0 #fff;
+}
+
+p.rounded-blue {
+  border-radius:25px;
+  border:1px solid #2196F3;
+  padding:2px;
+  color:#2196F3;
+  text-align:center;
+}
+
+.search-form div.input-group-btn button {
+  border-bottom-right-radius:2px;
+  border-top-right-radius:2px;
+  background:#2196F3;
+  color:#ffffff;
+  border-color:#2196F3;
+  outline:none;
+  opacity:0.9;
+}
+
+.search-form div.input-group-addon {
+  background:#fff;
+  color:#2196F3;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+  color:#2196F3;
+  cursor:default;
+  background-color:#fff;
+  border:1px solid #ddd;
+  border-bottom-color:transparent;
+}
+
+a {
+  color:#555;
+  text-decoration:none;
+}
+
+.btn-cons {
+  margin-right:5px;
+  min-width:120px;
+  margin-bottom:8px;
+}
+
+.btn-warning {
+  color:#fff;
+  background-color:#f0ad4e;
+  border-color:#eea236;
+}
+
+.btn-success {
+  color:#fff;
+  background-color:#5cb85c;
+  border-color:#4cae4c;
+}
+
+.btn-info {
+  color:#fff;
+  background-color:#2196F3;
+  border-color:#2196F3;
+}
+
+.btn-default, .btn-primary, .btn-success, .btn-info, .btn-warning, .btn-danger {
+  text-shadow:0 -1px 0 rgba(0,0,0,0.2);
+  -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.15),0 1px 1px rgba(0,0,0,0.075);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,0.15),0 1px 1px rgba(0,0,0,0.075);
+}
+
